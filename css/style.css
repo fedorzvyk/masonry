@@ -10,8 +10,8 @@ body {
 
 .grid {
   background: #eee;
-  width: 1013px;
-  height: 430px;
+  width: 320px;
+  height: 136px;
 }
 
 /* clearfix */
@@ -24,36 +24,106 @@ body {
 /* ---- grid-item ---- */
 
 .grid-item {
-  width: 138px;
-  height: 138.68px;
+  width: 43.59px;
+  height: 43.86px;
   float: left;
 
   /* vertical gutter */
-  margin-bottom: 8px;
+  margin-bottom: 2.53px;
   background: #d26;
   border-radius: 5px;
 }
 
 .grid-item--width2 {
-  width: 283px;
+  width: 89.4px;
 }
 .grid-item--height2 {
-  height: 283.34px;
+  height: 89.61px;
 }
 
 .grid-item:nth-child(1) {
-  margin-top: 143px;
-  margin-bottom: 149px;
+  margin-top: 45.12px;
+  margin-bottom: 47.02px;
 }
 .grid-item:nth-child(2) {
-  margin-top: 89px;
+  margin-top: 28.08px;
 }
 .grid-item:nth-child(4) {
-  margin-top: 99px;
+  margin-top: 31.24px;
 }
 .grid-item:nth-child(5) {
-  margin-top: 66px;
+  margin-top: 20.83px;
 }
 .grid-item:nth-child(6) {
-  margin-top: 155px;
+  margin-top: 48.91px;
+}
+.grid-item:nth-child(10) {
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .grid {
+    width: 768px;
+    height: 326px;
+  }
+  .grid-item {
+    width: 104.62px;
+    height: 105.14px;
+    margin-bottom: 6.07px;
+  }
+  .grid-item--width2 {
+    width: 214.55px;
+  }
+  .grid-item--height2 {
+    height: 214.81px;
+  }
+  .grid-item:nth-child(1) {
+    margin-top: 108.16px;
+    margin-bottom: 112.7px;
+  }
+  .grid-item:nth-child(2) {
+    margin-top: 67.32px;
+  }
+  .grid-item:nth-child(4) {
+    margin-top: 74.88px;
+  }
+  .grid-item:nth-child(5) {
+    margin-top: 49.92px;
+  }
+  .grid-item:nth-child(6) {
+    margin-top: 117.24px;
+  }
+}
+@media (min-width: 1200px) {
+  .grid {
+    width: 1013px;
+    height: 430px;
+  }
+  .grid-item {
+    width: 138px;
+    height: 138.68px;
+    margin-bottom: 8px;
+  }
+  .grid-item--width2 {
+    width: 283px;
+  }
+  .grid-item--height2 {
+    height: 283.34px;
+  }
+  .grid-item:nth-child(1) {
+    margin-top: 143px;
+    margin-bottom: 149px;
+  }
+  .grid-item:nth-child(2) {
+    margin-top: 89px;
+  }
+  .grid-item:nth-child(4) {
+    margin-top: 99px;
+  }
+  .grid-item:nth-child(5) {
+    margin-top: 66px;
+  }
+  .grid-item:nth-child(6) {
+    margin-top: 155px;
+  }
 }
