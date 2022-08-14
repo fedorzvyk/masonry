@@ -15,11 +15,11 @@ body {
 }
 
 /* clearfix */
-.grid:after {
+/* .grid:after {
   content: "";
   display: block;
   clear: both;
-}
+} */
 
 /* ---- grid-item ---- */
 
@@ -27,10 +27,18 @@ body {
   width: 138px;
   height: 138.68px;
   float: left;
+
   /* vertical gutter */
   margin-bottom: 8px;
   background: #d26;
   border-radius: 5px;
+}
+
+.grid-item--width2 {
+  width: 283px;
+}
+.grid-item--height2 {
+  height: 283.34px;
 }
 
 .grid-item:nth-child(1) {
@@ -48,12 +56,4 @@ body {
 }
 .grid-item:nth-child(6) {
   margin-top: 155px;
-}
-
-.grid-item--width2 {
-  width: 283px;
-}
-
-.grid-item--height2 {
-  height: 283.34px;
 }
